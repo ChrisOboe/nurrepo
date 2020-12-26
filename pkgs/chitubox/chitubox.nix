@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     description = "SLA/DLP/LCD 3D printing slicer";
     platforms = platforms.linux;
     license = licenses.unfreeRedistributable;
-    maintainers = with maintainers; [ ChrisOboe ];
+    maintainers = [ "chris@oboe.email" ];
   };
 }
 
