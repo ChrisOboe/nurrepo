@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
     homepage = "https://www.arcan-fe.com";
     description = "Next Generation Display Server";
     platforms = platforms.linux;
-    maintainers = [ maintainers.ChrisOboe ];
+    maintainers = [ maintainers.chrisoboe ];
   };
 }
 
